@@ -7,6 +7,8 @@ describe('App Component', () => {
     // Arrange: Render the component
     render(<App />);
 
+    // Act: Simulate any user interactions if necessary (not needed in this case)
+
     // Assert: Check that the rendered page contains some content
     expect(screen.getByText('Currency Converter')).toBeInTheDocument();
   });
